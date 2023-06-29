@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background-color: sandybrown;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    border: 1px solid black;
+    border-radius: 444px;
+    background: teal;
+}
+
+.url-container {
+    background: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    width: 93vw;
+    border: 1px solid black;
+    border-radius: 444px;
+}
+.box
+{
+    background: black;
+    height: 40vh;
+    width: 40vw;
+    display: flex;
+    border-radius: 41px;
+    opacity: 0.8;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.url-input form {
+    margin-bottom: 15px;
+}
+
+.url-input form input {
+    padding: 7px;
+    text-align: center;
+    font-weight: 900;
+}
+
+#para {
+    background-color: white;
+    padding: 5px;
+    border: 1px solid black;
+    width: 228px;
+    border-radius: 6px;
+    margin-right: 6px;
+     text-align: center;
+}
+
+.result {
+    display: flex;
+    align-items: center;
+    
+
+}
+.btn
+{
+    width:132px;
+}
+
+@media screen and (max-width:920px) {
+    .url-container {
+        background: aliceblue;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 60vh;
+        width: 93vw;
+        border: 1px solid black;
+        border-radius: 31px;
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 86vh;
+        width: 100vw;
+        border: 1px solid black;
+        border-radius: 43px;
+        /* margin-top: 30px; */
+        background: teal;
+    }
+    .result {
+        flex-direction: column;
+        justify-content: center;
+        margin-right: 0;
+    }
+     form
+     {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+     }
+    .url-input form input {
+        width: 70vw;
+        margin: auto;
+        border-radius: 13px;
+        font-size: 27px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    #para {
+        text-align: center;
+    width: 70vw;
+    margin-right: 0;
+    margin-bottom: 10px;
+    overflow: auto;
+    border-radius: 13px;
+    font-size: 27px;
+     }
+     .btn
+     {
+        width: 45vw;
+        font-size: 23px;
+        border-radius: 13px;
+        padding: 11px;
+        margin-bottom: 15px;
+     }
+     .box
+     {
+        width: 80vw;
+    border-radius: 14px;
+    height: 53vh;
+    }
+    .url-input form {
+        margin-bottom: 0px;
+    }
+   .outro
+   {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+
+   }
+     
+}
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1.5) {
+    .box
+    {
+        width: 79vw;
+    border-radius: 29px;
+    height: 47vh;
+    }
+    .btn {
+        width: 26vw;
+        font-size: 23px;
+        border-radius: 13px;
+        padding: 11px;
+        margin-bottom: 15px;
+    }
+    .url-input form input {
+        width: 55vw;
+        margin: auto;
+        border-radius: 13px;
+        font-size: 27px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    #para {
+        text-align: center;
+        width: 55vw;
+        margin-right: 0;
+        margin-bottom: 10px;
+        overflow: auto;
+        border-radius: 13px;
+        font-size: 27px;
+    }
+    
+   }
